@@ -11,6 +11,11 @@
     overflow-x: hidden;
 }
 
+iframe {
+	width: 100%;
+	height: auto;
+}
+
 #about-us h5 {
 	color: grey;
 }
