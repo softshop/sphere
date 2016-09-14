@@ -51,8 +51,7 @@ nav {
 	background-color: rgba(255,255,255,0.7);
 }
 
-#landingOptions li{
-	padding: 50px;
+#landingOptions{
 	font-size: -webkit-xxx-large;
 	color: #ff6d00;
 	display: inline !important;
@@ -88,12 +87,12 @@ h3, h4 {
 #landingDropdown {
 	background-color: rgba(255,255,255,0.7);
 }
-#landingOptions li a{
+#landingOptions a{
 	color: #ff6d00;
 	font-weight: 200;
 }
 
-#landingOptions li a:hover{
+#landingOptions a:hover{
 	text-decoration: underline;
 }
 
