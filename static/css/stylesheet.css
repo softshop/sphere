@@ -48,12 +48,8 @@ nav {
 #landingOptions {
 	top:400px;
 	color: #ff6d00;
-	background-color: rgba(255,255,255,0.7);
-}
-
-#landingOptions{
+	background-color: rgba(255,255,255,0.9);
 	font-size: -webkit-xxx-large;
-	color: #ff6d00;
 	display: inline !important;
 }
 
@@ -102,9 +98,10 @@ h3, h4 {
 }
 
 
-  #landing img{
+  #landingTitle img{
+  	top: 100px;
   	position: absolute;
-  	width: auto;
+  	width: 50%;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
@@ -168,8 +165,7 @@ nav ul a{
   	background-color: rgba(255,255,255,0);
   }
 #landingTitle {
-	position: absolute;
-	margin-left: 150px;
+	margin-left: 320px;
 }
 
 
