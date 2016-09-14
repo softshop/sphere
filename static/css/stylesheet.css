@@ -11,9 +11,16 @@
     overflow-x: hidden;
 }
 
+#about-us h5 {
+	color: grey;
+}
+
 nav {
 	display: none;
 	position: fixed;
+}
+nav img {
+	max-height: 64px;
 }
 
   main {
@@ -30,11 +37,14 @@ nav {
   #home .content{
   	padding:50px 0px 50px 0px !important;;
   }
-
+#partners img {
+	height: 250px;
+	width: auto;
+}
 .content{
 	background-color: white;
 	margin: 30px;
-	font-size: larger;
+	font-size: medium;
 	font-weight: 300;
 	padding: 50px 0px 50px 0px !important;
 	width: 900px;
@@ -76,7 +86,7 @@ nav {
 	text-decoration: underline;
 }
 
-h3, h4 {
+h3, h4, h5 {
 	color: #ff6d00;
 }
 

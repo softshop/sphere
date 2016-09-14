@@ -21,7 +21,7 @@
   Materialize.scrollFire(options);
 
   $(window).scroll(function() {
-  	if ($(window).scrollTop() + $(window).height() < 1500){
+  	if ($(window).scrollTop() + $(window).height() < 1400){
   		$('nav').hide();
   	} 
   	else {
