@@ -1,9 +1,9 @@
  body {
- 	background-color: rgba(27,140,214,0.8); 
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     font-weight: 100;
+    background-color: rgba(252,252,0,0.5);
   }
 
   html, body {
@@ -39,14 +39,14 @@ nav {
 	margin-right: auto;
 }
 #landingOptions {
-	top:400px;
-	color: white;
+	top:540px;
+	color: black;
 }
 
 #landingOptions li{
 	padding: 50px;
 	font-size: -webkit-xxx-large;
-	color: white;
+	color: black;
 	display: inline !important;
 }
 
@@ -72,7 +72,7 @@ nav {
 	text-decoration: underline;
 }
 #landingOptions li a{
-	color: white;
+	color: black;
 	font-weight: 200;
 }
 
@@ -157,20 +157,19 @@ nav {
   }
 
   #landingTitle {
-  	top:50px;
+  	top:460px;
   	font-size: 5em; 
-  	color:white;
-    background-color: rgba(0,0,0,0.3)
+  	color:black;
   }
 
   #overImageText{
   	top:200px;
   	width: 400px;
-  	color: white;
-  	font-weight: 100;
+  	color: black;
+  	margin-left: 100px;
+  	font-weight: 300;
   	padding:30px;
   	font-size: larger;
-  	background-color: rgba(27,140,214,0.8);
   }
 
 
@@ -181,25 +180,25 @@ nav {
 	list-style-type:disc;
 }
 .input-field .prefix.active {
-     color: rgba(27,140,214,1);
+     color: rgba(245,124,0,1);
    }
 
    .input-field input[type=text]:focus + label {
-     color: rgba(27,140,214,1);
+     color: rgba(245,124,0,1);;
    }
 
    .input-field input[type=text]:focus {
-     border-bottom: 1px solid rgba(27,140,214,1);
-     box-shadow: 0 1px 0 0 rgba(27,140,214,1);
+     border-bottom: 1px solid rgba(245,124,0,1);
+     box-shadow: 0 1px 0 0 rgba(245,124,0,1);
    }
 
      .input-field textarea:focus + label {
-     color: rgba(27,140,214,1) !important;
+     color: rgba(245,124,0,1) !important;
    }
 
    .input-field textarea:focus {
-     border-bottom: 1px solid rgba(27,140,214,1) !important;
-     box-shadow: 0 1px 0 0 rgba(27,140,214,1) !important;
+     border-bottom: 1px solid rgba(245,124,0,1) !important;
+     box-shadow: 0 1px 0 0 rgba(245,124,0,1) !important;
    }
 
    .input-field .prefix ~ input{
