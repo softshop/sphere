@@ -180,3 +180,38 @@ nav {
 #servicesList li{
 	list-style-type:disc;
 }
+.input-field .prefix.active {
+     color: rgba(27,140,214,1);
+   }
+
+   .input-field input[type=text]:focus + label {
+     color: rgba(27,140,214,1);
+   }
+
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid rgba(27,140,214,1);
+     box-shadow: 0 1px 0 0 rgba(27,140,214,1);
+   }
+
+     .input-field textarea:focus + label {
+     color: rgba(27,140,214,1) !important;
+   }
+
+   .input-field textarea:focus {
+     border-bottom: 1px solid rgba(27,140,214,1) !important;
+     box-shadow: 0 1px 0 0 rgba(27,140,214,1) !important;
+   }
+
+   .input-field .prefix ~ input{
+   	margin-bottom: 0px;
+   }
+
+   .input-field input[type=text].valid {
+     border-bottom: none;
+     box-shadow: none;
+   }
+
+   #contactSubmit{
+   	margin-left: 100px;
+   }
+
