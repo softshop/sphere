@@ -1,0 +1,76 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-weight: 100;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+	position: fixed;
+}
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  nav ul a {
+  	font-size: larger;
+  }
+
+.content{
+	border-top: 1px solid black;
+	font-size: larger;
+	font-weight: 300;
+	padding: 50px 200px 50px 200px !important;
+}
+
+  #landing img{
+  	height: 1000px;
+  	width: auto;
+  }
+
+  .brand-logo{
+  	font-weight: 100;
+  }
+
+  .page {
+  	height: auto;
+  }
+
+  #homeTitle {
+  	font-size:larger;
+  	font-weight: 400;
+  }
+
+  .homeBox {
+  	border-right: 1px solid black;
+  	padding: 100px !important;
+  	font-size: xx-large;
+  }
+  #aboutDropdown a{
+  	color: white !important;
+  }
+
+  #overImageText{
+  	position: absolute;
+  	top:300px;
+  	left:500px;
+  	width: 400px;
+  	color: white;
+  	font-weight: 100;
+  	padding:30px;
+  	font-size: larger;
+  	background-color: rgba(27,140,214,0.8);
+
+  }
+  #servicesList{
+  	padding-left:50px;
+  }
+#servicesList li{
+	list-style-type:disc;
+}
