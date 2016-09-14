@@ -39,7 +39,7 @@ nav {
 	margin-right: auto;
 }
 #landingOptions {
-	top:600px;
+	top:400px;
 	color: white;
 }
 
@@ -60,7 +60,7 @@ nav {
 
 #landingDropdown li a{
 	font-size: x-large !important;
-	font-weight: 300;
+	font-weight: 200;
 }
 #landingDropdown li a:hover{
 	background: none;
@@ -82,6 +82,7 @@ nav {
 
 
   #landing img{
+  	opacity: 0.8;
   	height: 1000px;
   	width: auto;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
@@ -93,31 +94,31 @@ nav {
 
   @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.8; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.8; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.8; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.8; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.8; }
 }
 
   .brand-logo{
@@ -156,15 +157,14 @@ nav {
   }
 
   #landingTitle {
-  	top:100px;
+  	top:50px;
   	font-size: 5em; 
   	color:white;
     background-color: rgba(0,0,0,0.3)
   }
 
   #overImageText{
-  	top:300px;
-  	
+  	top:200px;
   	width: 400px;
   	color: white;
   	font-weight: 100;
