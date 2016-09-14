@@ -13,12 +13,6 @@
  			}
  		});
  	});
- 	var options = [
-    {selector: '#home', offset: 500, callback: function() {
-      $('nav').show();
-    } }
-  ];
-  Materialize.scrollFire(options);
 
   $(window).scroll(function() {
   	if ($(window).scrollTop() + $(window).height() < 1400){

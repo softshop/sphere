@@ -86,6 +86,10 @@ nav img {
 	text-decoration: underline;
 }
 
+.material-icons{
+	font-size:30px;
+}
+
 #landingDropdown li:hover{
 	background: none;
 	text-decoration: underline;
@@ -95,12 +99,17 @@ h3, h4, h5 {
 	color: #ff6d00;
 }
 
+h6 {
+	font-size: 1.3rem;
+}
+
 #landingDropdown {
 	background-color: rgba(255,255,255,0.7);
 }
 #landingOptions a{
 	color: #ff6d00;
-	font-weight: 200;
+	font-weight: 300;
+	font-size: 0.90em;
 }
 
 #landingOptions a:hover{
@@ -114,7 +123,7 @@ h3, h4, h5 {
 
 
   #landingTitle img{
-  	top: 100px;
+  	top: 75px;
   	position: absolute;
   	width: 50%;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
