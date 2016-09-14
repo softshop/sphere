@@ -20,4 +20,13 @@
   ];
   Materialize.scrollFire(options);
 
+  $(window).scroll(function() {
+  	if ($(window).scrollTop() + $(window).height() < 1500){
+  		$('nav').hide();
+  	} 
+  	else {
+  		$('nav').show();
+  	}
+});
+
  });
