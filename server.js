@@ -23,7 +23,7 @@ router.get('/', function(req, res){
 })
 
 router.post('/sendMail', function(req, res){
-	var emailTo = "avikejariwal@gmail.com";
+	var emailTo = "krishna@sphereadvisory.com";
 	var name = req.body.name;
 	var emailFrom = req.body.emailFrom;
 	var phoneNumber = req.body.phoneNumber;
