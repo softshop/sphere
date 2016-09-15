@@ -6,6 +6,7 @@ var port = process.env.PORT || 8080;
 var bodyParser = require("body-parser");
 var sendgrid  = require('sendgrid')('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');
 var validator = require('validator');
+var butter = require('buttercms')('dc6d55b503fac07b43d2e2de4a94cacc8859edff');
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -15,11 +16,21 @@ app.engine('.html', require('ejs').__express);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-
 app.use('/', router);
 
+var pages = ['about_us', 'services', 'team', 'home'];
+
 router.get('/', function(req, res){
-	res.render('index');
+	console.log("Received request");
+	butter.content.retrieve(pages)
+	.then(function(response){
+		//console.log(response.data.data);
+		console.log("Got all data, sending response");
+		var responseFinal = response.data.data;
+		res.render('index', {data: responseFinal});
+	}).catch(function(response){
+		console.log(response);
+	});
 })
 
 router.post('/sendMail', function(req, res){

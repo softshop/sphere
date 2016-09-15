@@ -3,20 +3,10 @@
 		<h3>Services</h3>
 		<div class="row">
 			<div class="col l8">
-				<p>Our team increases your business performance using expertise that includes:</p>
-				<ul id="servicesList">
-					<li>Re-engineering of business processes</li>
-					<li>Strategy and Transformation</li>
-					<li>Supply Chain Management Consulting</li>
-					<li>Finance Transformation</li>
-					<li>People and Performance</li>
-					<li>Marketing, Sales and Service</li>
-					<li>Data & Analytics Consulting</li>
-					<li>Projects related services</li>
-					<li>Business valuation & audits</li>
-				</ul>
+				<p><%= data.services[0].title %></p>
+				<p><%- data.services[0].content %></p>
 			</div>
-			<div class="col l4"><img src="img/services/img1.png"></div>
+			<div class="col l4"><img src="<%= data.services[0].image %>"></div>
 		</div>
 	</div>
 </div>

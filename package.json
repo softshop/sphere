@@ -10,10 +10,12 @@
   "author": "Avi Kejariwal",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.0.1",
     "body-parser": "^1.15.2",
+    "buttercms": "^1.0.6",
     "ejs": "^2.5.1",
     "express": "^4.14.0",
     "sendgrid": "2.0.0",
-    "validator":"^5.7.0"
+    "validator": "^5.7.0"
   }
 }
