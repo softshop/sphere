@@ -21,27 +21,27 @@
 			</div>
 			
 			</div>
-		<form class="col s12 l6">
+		<form id="contactForm" class="col s12 l6">
 			<div class="input-field col s12 l12">
 			 <i class="material-icons prefix">account_circle</i>
-				<input id="name" type="text" class="validate">
+				<input id="name" type="text" >
 				<label for="name">Name</label>
 			</div>
 			<div class="input-field col s12 l12">
 				<i class="material-icons prefix">email</i>
-				<input id="email" type="text" class="validate">
-				<label for="email">Email</label>
+				<input id="emailFrom" type="text">
+				<label for="emailFrom">Email</label>
 			</div>
 			<div class="input-field col s12 l12">
 				<i class="material-icons prefix">phone</i>
-				<input id="phone" type="text" class="validate">
-				<label for="phone">Phone</label>
+				<input id="phoneNumber" type="text">
+				<label for="phoneNumber">Phone</label>
 			</div>
 			<div class="input-field col s12 l12">
           <textarea id="message" class="materialize-textarea"></textarea>
           <label for="message">Message</label>
         </div>
-        <a class="waves-effect orange darken-2 waves-orange darken-2 btn" id="contactSubmit">Submit</a>
+        <a class="waves-effect orange darken-2 waves-orange darken-2 btn" type="submit" id="contactSubmit" onclick="sendMail()">Submit</a>
 		</form>
 	</div>
 </div>
