@@ -7,8 +7,9 @@ var bodyParser = require("body-parser");
 var sendgrid  = require('sendgrid')('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');
 var validator = require('validator');
 var butter = require('buttercms')('dc6d55b503fac07b43d2e2de4a94cacc8859edff');
+var favicon = require('serve-favicon');
 
-
+app.use(favicon(__dirname + '/static/img/favicon.ico'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static('static'));
